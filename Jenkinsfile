@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-      repository = "whiter018/testFront"  // repository name of your docker hub
+      repository = "whiter018/frontend"  // repository name of your docker hub
       MONGOIP = credentials('mongoip');
       MONGODBNAME = credentials('mongodbname');
       MONGOID = credentials('mongoid');
