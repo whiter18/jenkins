@@ -8,4 +8,4 @@ ARG mongoPw
 ARG mongodbName
 
 
-CMD java -Dmongoip=mongoIp -Dmongoid=mongoID -D-jar jenkins.jar
+CMD java -Dmongoip=mongoIp -Dmongoid=mongoID -Dmongopw=mongoPw -DmongodbName=mongodbname -jar jenkins.jar
